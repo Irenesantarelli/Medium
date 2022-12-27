@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium</title>
+    <link rel="stylesheet" href="stile.css">
+    <script src="https://kit.fontawesome.com/17b2ba5e24.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        .header{
+            width: 100%;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .bg-white{
+            background-color: white;
+            box-shadow: 0px 6px 4px #00000008;
+            position: fixed;
+            overflow: hidden;
+            z-index: 99;
+            width: 100%;
+            top: 0;
+        }
+        div img{
+            height: 40px;
+            margin-left: 4rem; 
+        }
+        .icons div{
+            display: inline-block;
+            margin-left: 1rem;
+        }
+        
+       .icons{
+        position: absolute;
+        top: 0.5rem;
+        right: 6rem;
+       }
+       .T{
+        border-radius: 30px;
+        background-color: #df5b3c;
+        color: white;
+        padding: 5px 10px;
+       }
+       .T:hover{
+        opacity: 0.7;
+       }
+       .resume{
+        border: solid #00000047;
+        border-width: 0.5px;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-weight: 100;
+        font-size: 15px;
+        color: #00000099;
+       }
+       .resume:hover{
+        color: black;
+       }
+       .icons div:hover{
+        cursor: pointer;
+       }
+       .search{
+        border: solid #00000047;
+        border-radius: 20px;
+        border-width: 0.5px;
+        padding: 5px 10px;
+        position: absolute;
+        left: 18rem;
+        top: 0.5rem;
+        color: #00000099;
+        font-size: 15px;
+        background-color: transparent;
+       }
+       .search:hover{
+        color: black;
+        cursor: text;
+       }
+       input{
+        border-bottom-color: rgb(41, 41, 41);
+        border-bottom-style: none;
+        border-bottom-width: 0px;
+        border-left-color: rgb(41, 41, 41);
+        border-left-style: none;
+        border-left-width: 0px;
+        border-right-color: rgb(41, 41, 41);
+        border-right-style: none;
+        border-right-width: 0px;
+        border-top-color: rgb(41, 41, 41);
+        border-top-style: none;
+        border-top-width: 0px;
+        color: rgb(41, 41, 41);
+        cursor: text;
+        display: inline-block;
+        font-size: 15px;
+        text-align: start;
+        writing-mode: horizontal-tb;
+       }
+       .article{
+        display: flex;
+       }
+       .Following{
+        margin-top: 4rem;
+        margin-left: 4rem;
+        border-bottom: 1px solid #00000010;
+       }
+       .Following span{
+        margin-left: 1rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-bottom: 1px solid #00000010;
+       }
+       .Following span:hover{
+        border-bottom-color: black;
+        cursor: pointer;
+       }
+       .follow{
+        border-bottom-color: 1px solid black;
+       }
+       .kolby{
+        margin-top: 3rem;
+        position: relative;
+       }
+       .eh{
+        margin-left: 11px;
+        margin-top: 14px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       h3{
+        margin-left: 4rem;
+        margin-top: 10px;
+       }
+       p{
+        color: #00000087;
+        margin-left: 4rem;
+        font-size: 15px;
+       }
+       .img2{
+        margin-left: 556px;
+        margin-top: -122px;
+       }
+       .img2:hover{
+        cursor: pointer;
+        box-shadow: 5px 0px 8px 1px #0000008f;
+       }
+       .mg:hover{
+        cursor: pointer;
+       }
+       .mg{
+        height: 24px;
+       }
+      .kolby span{
+        position: absolute;
+        bottom: 3px;
+        left: 90px;
+      }
+      .Dec{
+        display: flex;
+        font-size: 14px;
+        color: #00000087;
+        margin-left: 4rem;
+        
+      }
+      .d{
+        margin-right: 1rem;
+      }
+      .b{
+        background-color: rgba(242, 242, 242, 1);
+        padding: 2px 10px;
+        border-radius: 20px;
+        cursor: pointer;
+      }
+      .oi{
+        margin-left: 30rem;
+        display: flex;
+      }
+      .oi div{
+        margin-left: 1rem;
+        cursor: pointer;
+      }
+    .aside{
+        width: 45%;
+        float: right;
+        margin-top: 2rem;
+        position: relative;
+        
+    }
+    .nav{
+    position: absolute;
+    bottom: 20rem;
+    }
+
+       
+
+
+       
+
+       
+
+
+
+    </style>
+</head>
+<body>
+    <heaader class="header">
+        <div class="bg-white">
+        <img src="logo medium.png" alt="logo">
+        <div class="icons">
+            <div>
+        <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <div>
+        <i class="fa-solid fa-bell"></i>
+            </div>
+        <div class="resume">
+        <span>Resume membership</span>
+        </div>
+        <div class="T">
+        <span>T</span>
+        </div>
+        </div>
+        <div class="search"><input type="search" placeholder="Search Medium" value>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        </div>
+    </heaader>
+    <article>
+        <div class="Following">
+            <div class="follow">
+        <span>FOLLOWING</span>
+        <span>RECOMMENDED FOR YOU</span>
+        </div>
+        </div>
+        <div class="kolby">
+            <img class="mg" src="kolby.png" alt="kolby">
+            <span class="eh">Kolby Sisk<span style="color: #00000087; font-size: 13px;"> in </span> Eng & Data</span>
+        </div>
+        <h3>React state management in 2022-Return of the<br>Redux</h3>
+        <p>At the beginning of the year if you told me I'd be publishing a<br>recommendation to use Redux I would have laughed in your face. Yet her...</p>
+        <div class="Dec">
+            <span class="d">Dec 3</span>
+            <span class="d">4 min read</span>
+            <span class="b d">React</span>
+            <span class="d">Popular on Medium</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="film.png" alt="immagine">
+        <div class="kolby">
+            <img class="mg" src="ragazza.png" alt="ragazza">
+            <span class="eh">Navoda Nilakshi</span>
+        </div>
+        <h3>How To Sanitize Your Express App Against<br>MongoDB Injection & Cross-Site Scripting.</h3>
+        <p>Easiest way to sanitize your express app.</p>
+        <div class="Dec">
+            <span class="d">Dec 19</span>
+            <span class="d">6 min read</span>
+            <span class="b d">Web Development</span>
+            <span class="d">Based on your reading history</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="siringa.png" alt="siringa">
+        <div class="kolby">
+            <img class="mg" src="divy.png" alt="divy">
+            <span class="eh">Divyesh Bhalani<span style="color: #00000087; font-size: 13px;"> in </span>DhiWise</span>
+        </div>
+        <h3>React 18 new features and updates</h3>
+        <p>Know about some cool features and updates of React 18.</p>
+        <div class="Dec">
+            <span class="d">Nov 24</span>
+            <span class="d">4 min read</span>
+            <span class="b d">Reactjs</span>
+            <span class="d">Popular on Medium</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="divy2.png" alt="divy2">
+        <div class="kolby">
+            <img class="mg" src="blog.png" alt="blog">
+            <span class="eh">Vsevolod Ulyanovich<span style="color: #00000087; font-size: 13px;"> in </span>Fively Blog</span>
+        </div>
+        <h3>15 Best Web App Ideas for a Startup in 2021</h3>
+        <p>15 Startup Ideas and Technologies That Could Make You a Millionaire</p>
+        <div class="Dec">
+            <span class="d">Oct 29</span>
+            <span class="d">6 min read</span>
+            <span class="b d">Web Development</span>
+            <span class="d">Popular on Medium</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="blog2.png" alt="blog">
+        <div class="kolby">
+            <img class="mg" src="kolby.png" alt="kolby">
+            <span class="eh">Kolby Sisk<span style="color: #00000087; font-size: 13px;"> in </span>Eng & Data</span>
+        </div>
+        <h3>Understanding re-rendering and memoization in<br>React</h3>
+        <p>The following are quick tips to increase performance in your React<br>application by understanding re-rendering and memoization. To better...</p>
+        <div class="Dec">
+            <span class="d">Dec 6</span>
+            <span class="d">4 min read</span>
+            <span class="b d">React</span>
+            <span class="d">Popular on Medium</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="blu.png" alt="Foto">
+        <div class="kolby">
+            <img class="mg" src="arun2.png" alt="arun">
+            <span class="eh">Arun Kashyap<span style="color: #00000087; font-size: 13px;"> in </span>Nerd For Tech</span>
+        </div>
+        <h3>Why Get Rid Of Promises To Fetch Data In React?</h3>
+        <p>How You Can Make Your Code Well Structured!!</p>
+        <div class="Dec">
+            <span class="d">Jul 5</span>
+            <span class="d">5 min read</span>
+            <span class="b d">React</span>
+            <span class="d">Selected for you</span>
+        </div>
+            <div class="oi">
+                <div>
+                <i class="fa-regular fa-bookmark"></i>
+                </div>
+                <div>
+                <i class="fa-solid fa-ellipsis"></i>
+                </div>
+            </div>
+        </div>
+        <img class="img2" src="arun.png" alt="divy2">
+    </article>
+    <aside class="aside">
+        <div cla="nav">
+            <img src="twitter.png" alt="twit">
+
+        </div>
+    </aside>
+</body>
+</html>
